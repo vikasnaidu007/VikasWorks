@@ -60,6 +60,44 @@ print(32 in base_config.values())
 print(('batch_size', 32) in base_config.items())
 
 
+# Find common keys between two dictionaries using set intersection
+config_a = {'batch_size': 32, 'optimizer': 'adam'}
+config_b = {'batch_size': 64, 'optimizer': 'adam', 'momentum': 0.9}
+
+common_keys = config_a.keys() & config_b.keys()
+print(common_keys)
+
+# Logical AND: && - (cond1 & cond2) => True
+# Logical OR: || -  (cond1 & cond2) => False
+
+dict1 = {'a': 1, 'b': 2}
+dict2 = {'b': 3, 'c' : 4}
+
+# dict1.update(dict2)
+
+merged_dict = dict1 | dict2
+print(merged_dict)
+
+# CLEARING A DICTIONARY
+
+# Removes all key-value pairs from model_params
+model_params.clear()
+print(model_params)
+
+data = {'name': 'Alice', 'age': 30, 'city': 'New York'}
+age = data.pop('ag', 'Not Found')
+print(data, age)
+
+last_item = data.popitem()
+print(last_item, data)
+
+del data['name']
+print(data)
+
+
+
+
+
 
 
 
