@@ -6,7 +6,7 @@ Declare variables of the following types: int, float, bool, string, and list.
 
 Print each variable along with its type in the terminal.
 '''
-
+##############################################
 year = 2026  # int
 price = 99.99  # float
 is_available = True  # bool
