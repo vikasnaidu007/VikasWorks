@@ -1,5 +1,5 @@
 '''
-
+Comp[leted challenge 1]
 Challenge #1
 
 Declare variables of the following types: int, float, bool, string, and list.
