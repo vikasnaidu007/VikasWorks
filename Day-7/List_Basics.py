@@ -1,4 +1,5 @@
 # List Basics
+#HI
 
 # Creating a list with different data types
 sample_list = [42, 3.14, 'GPT-4', True]
